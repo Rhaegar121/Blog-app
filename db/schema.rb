@@ -15,7 +15,7 @@ ActiveRecord::Schema[7.0].define(version: 20_230_502_102_003) do
   enable_extension 'plpgsql'
 
   create_table 'comments', force: :cascade do |t|
-    t.bigint 'user_id', null: false
+    t.bigint 'author_id', null: false
     t.bigint 'post_id', null: false
     t.text 'text'
     t.datetime 'created_at', null: false
@@ -25,7 +25,7 @@ ActiveRecord::Schema[7.0].define(version: 20_230_502_102_003) do
   end
 
   create_table 'likes', force: :cascade do |t|
-    t.bigint 'user_id', null: false
+    t.bigint 'author_id', null: false
     t.bigint 'post_id', null: false
     t.datetime 'created_at', null: false
     t.datetime 'updated_at', null: false

@@ -1,16 +1,55 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# BlogAppOnRails
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
+
+# 📖 [MyBlogApp] <a name="about-project"></a>
 
 > The Blog app is a classic example of a blog website. It's a functional website that shows the list of posts and empower readers to interact with them by adding comments and liking post.
 
-## Built With
+## Built With <a name="built-with"></a>
 
 - Ruby
 - Rails
 - Postgresql
 
-## Getting Started
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+<summary>Server</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- data model
+- Object Oriented Programming
+- Validations and Model specs.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 To run this project, take a copy of the code and follow the instruction below.
 
@@ -79,8 +118,9 @@ Visit http://localhost:3000/api-docs in your browser.
 
 - Run `rails server` to run the app.
 
-## Authors 1
+<!-- AUTHORS -->
 
+## 👥 Authors <a name="authors"></a>
 
 👤 **Kaung Myat Kyaw**
 
@@ -88,20 +128,33 @@ Visit http://localhost:3000/api-docs in your browser.
 - Twitter: [Twitter](https://twitter.com/20Rhaegar)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kaung-myat-kyaw-391720227)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+- [ ] **[Processing data in models]**
+- [ ] **[Setup and controllers]**
+- [ ] **[Controllers specs]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+## Show your support <a name="support"></a>
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+<!-- LICENSE -->
 
-- Microverse
-
-## 📝 License
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

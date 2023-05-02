@@ -1,24 +1,107 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# BlogAppOnRails
 
-Things you may want to cover:
+> The Blog app is a classic example of a blog website. It's a functional website that shows the list of posts and empower readers to interact with them by adding comments and liking post.
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby
+- Rails
+- Postgresql
 
-* Configuration
+## Getting Started
 
-* Database creation
+To run this project, take a copy of the code and follow the instruction below.
 
-* Database initialization
+### Prerequisites
 
-* How to run the test suite
+You need Ruby v3+, Rails v7+ and Postgresql installed on your machine.
 
-* Services (job queues, cache servers, search engines, etc.)
+### Setup
 
-* Deployment instructions
+`Clone the project`
 
-* ...
+Install gems with:
+
+```
+bundle install
+```
+
+Setup database with:
+
+```
+rails db:create
+rails db:migrate
+```
+
+### Usage
+
+Start server with:
+
+```
+rails server
+```
+
+Visit http://localhost:3000/ in your browser.
+
+### Run tests
+
+Install npm with:
+
+Install rspec with:
+
+```
+bundle install
+```
+
+and
+
+```
+rails generate rspec:install
+```
+
+run the test with:
+
+```
+rspec spec
+```
+
+### Open API documentation
+
+```
+rails server
+```
+
+Visit http://localhost:3000/api-docs in your browser.
+
+### Usage
+
+- Run `rails server` to run the app.
+
+## Authors 1
+
+
+👤 **Kaung Myat Kyaw**
+
+- GitHub: [GitHub](https://github.com/Rhaegar121)
+- Twitter: [Twitter](https://twitter.com/20Rhaegar)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kaung-myat-kyaw-391720227)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

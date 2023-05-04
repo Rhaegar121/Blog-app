@@ -4,7 +4,7 @@ class User < ApplicationRecord
   has_many :comments, foreign_key: 'author_id'
 
   validation :name, presence: true
-  validation :posts_counter, numericality: { greater_than_or_equal_to: 0 }
+  validation :posts_counter, numericality: { only_integer: true, greater_than_or_equal_to: 0 }
 
   def recent_post
     posts.order(created_at: :desc).limit(3)

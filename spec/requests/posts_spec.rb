@@ -4,7 +4,6 @@ RSpec.describe 'Posts', type: :request do
   describe 'GET /index' do
     before(:each) do
       @user = User.create(name: 'Tom', photo: 'https://unsplash.com/photos/F_-0BxGuVvo', bio: 'Teacher from Mexico.')
-      # @post = Post.new(author: @user, title: 'Hello', text: 'This is my first post')
       get '/users/1/posts'
     end
 
@@ -24,7 +23,6 @@ RSpec.describe 'Posts', type: :request do
   describe 'GET /index' do
     before(:each) do
       @user = User.create(name: 'Tom', photo: 'https://unsplash.com/photos/F_-0BxGuVvo', bio: 'Teacher from Mexico.')
-      @post = Post.new(author: @user, title: 'Hello', text: 'This is my first post')
       get '/users/1/posts/1'
     end
 

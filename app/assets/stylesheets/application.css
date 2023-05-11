@@ -22,7 +22,7 @@
 .container {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 0 15px;
     position: relative;
 }
@@ -86,7 +86,7 @@ a {
 }
 
 .post p {
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 .counter {

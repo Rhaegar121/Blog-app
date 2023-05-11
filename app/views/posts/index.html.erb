@@ -11,7 +11,7 @@
         </div>
     </div>
 </section>
-<section>
+<section class="container">
     <ul>
         <% @posts.each do |post| %>
             <%= link_to user_post_path(user_id: post.author_id, id: post.id) do %>
@@ -24,7 +24,7 @@
                             <span>Likes: <%= post.likes_counter %> </span>
                         </div>
                     </div>
-                    <div>
+                    <div class="comment">
                         <% post.recent_comments.each do |comment| %>
                             <p><%= comment.author.name %>: <%= comment.text %></p>
                         <% end %> 

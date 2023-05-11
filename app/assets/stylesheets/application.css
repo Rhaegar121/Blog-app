@@ -14,97 +14,97 @@
  *= require_self
  */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 0 15px;
-    position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 15px;
+  position: relative;
 }
 
 h1 {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .card {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
 }
-  
+
 a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 .img {
-    width: 10%;
-    height: 100px;
+  width: 10%;
+  height: 100px;
 }
 
 .content {
-    width: 85%;
-    border: 2px solid #000;
+  width: 85%;
+  border: 2px solid #000;
 }
 
 .content h2 {
-    padding: 25px 0px 0px 25px;
-    font-size: 1.7rem;
+  padding: 25px 0 0 25px;
+  font-size: 1.7rem;
 }
 
 .content p {
-    text-align: right;
-    padding-right: 20px;
+  text-align: right;
+  padding-right: 20px;
 }
 
 .bio {
-    border: 2px solid #000;
-    padding: 5px;
+  border: 2px solid #000;
+  padding: 5px;
 }
 
 .bio p {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 .posts {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .post {
-    border: 2px solid #000;
-    padding: 5px;
+  border: 2px solid #000;
+  padding: 5px;
 }
 
 .post p {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .counter {
-    text-align: right;
-    padding-right: 10px;
+  text-align: right;
+  padding-right: 10px;
 }
 
 .btn {
-    border: 2px solid #000;
-    padding: 5px 10px;
-    margin-top: 20px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+  border: 2px solid #000;
+  padding: 5px 10px;
+  margin-top: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .comment {
-    border: 2px solid #000;
-    padding: 5px;
-    margin-top: 5px;
+  border: 2px solid #000;
+  padding: 5px;
+  margin-top: 5px;
 }

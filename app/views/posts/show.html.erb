@@ -14,4 +14,5 @@
             <p><%= comment.author.name %>: <%= comment.text %></p>
         <% end %> 
     </div>
+    <%= link_to "Add a comment", user_post_comments_path(user_id: @post.author_id, post_id: @post.id), class: "btn" %>
 </section>

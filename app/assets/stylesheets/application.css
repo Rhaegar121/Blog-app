@@ -110,17 +110,17 @@ a {
   margin-top: 5px;
 }
 
-.post-form {
+form {
   text-align: center;
   margin: 20px auto;
 }
 
-.post-form label {
+form label {
   margin: 15px 0;
   display: block;
 }
 
-.post-form #post_title {
+form #post_title {
   width: 237px;
   height: 30px;
 }

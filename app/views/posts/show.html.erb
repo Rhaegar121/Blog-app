@@ -14,4 +14,8 @@
             <p><%= comment.author.name %>: <%= comment.text %></p>
         <% end %> 
     </div>
+    <%= link_to "Add a comment", new_user_post_comment_path(user_id: @post.author_id, post_id: @post.id), class: "btn" %>
+    <%= form_with model: @like, url: user_post_likes_path(post_id: @post.id) do |f| %>
+        <%= f.submit "Like", class: "btn like" %>
+    <% end %>
 </section>

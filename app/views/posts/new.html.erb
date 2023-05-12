@@ -1,10 +1,10 @@
-<section>
+<section class="container">
     <h1>Add a new post</h1>
     <%= form_with model: @post, url: user_posts_path, class: "post-form" do |f| %>
-        <%= f.label :title %> <br>
-        <%= f.text_field :title, class: "post-title" %> <br>
-        <%= f.label :text %> <br>
-        <%= f.text_area :text, cols: 30, rows: 10, class: "post-text" %> <br>
+        <%= f.label :title %>
+        <%= f.text_field :title %>
+        <%= f.label :text %> 
+        <%= f.text_area :text, cols: 30, rows: 10 %> <br>
         <%= f.submit "Submit", class: "btn" %>
     <% end %>
 </section>

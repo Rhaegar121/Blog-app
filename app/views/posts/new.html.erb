@@ -1,6 +1,6 @@
 <section>
     <h1>Add a new post</h1>
-    <%= form_with model: @post, class: "post-form" do |f| %>
+    <%= form_with model: @post, url: user_posts_path, class: "post-form" do |f| %>
         <%= f.label :title %> <br>
         <%= f.text_field :title, class: "post-title" %> <br>
         <%= f.label :text %> <br>

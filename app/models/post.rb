@@ -7,7 +7,7 @@ class Post < ApplicationRecord
   validates :title, presence: true, length: { maximum: 250 }
 
   def recent_comments
-    comments.order(created_at: :desc).limit(5)Layout/EndOfLine: Carriage return character detected.
+    comments.order(created_at: :desc).limit(5)
   end
 
   private

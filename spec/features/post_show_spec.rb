@@ -28,4 +28,9 @@ RSpec.describe 'Post show', type: :feature do
   it 'can see post body' do
     expect(page).to have_content 'This is my first post'
   end
+
+  it 'can see username of each commenter' do
+        expect(page).to have_content(@comment1.author.name)
+        expect(page).to have_content(@comment2.author.name)
+    end
 end

@@ -25,7 +25,7 @@
                         </div>
                     </div>
                     <div class="comment">
-                        <% post.recent_comments.each do |comment| %>
+                        <% post.recent_comments.includes(:author).each do |comment| %>
                             <p><%= comment.author.name %>: <%= comment.text %></p>
                         <% end %> 
                     </div>
@@ -34,4 +34,5 @@
         <% end %>
     </ul>
     <%= link_to "Add a post", new_user_post_path(user_id: @user.id), class: "btn" %>
+    <button class="btn pagination">Pagination</button>
 </section>

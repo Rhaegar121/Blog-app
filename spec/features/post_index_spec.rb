@@ -44,6 +44,10 @@ RSpec.describe 'Post index', type: :feature do
     expect(page).to have_content 'Likes: 1'
   end
 
+  it 'can see a section for pagination if there are more posts than fit on the view.' do
+    expect(page).to have_content 'Pagination'
+  end
+
   it 'When I click on a post, it redirects me to that post show page' do
     click_on 'Hello'
     expect(page).to have_content 'Hello'

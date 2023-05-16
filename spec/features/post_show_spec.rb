@@ -33,4 +33,9 @@ RSpec.describe 'Post show', type: :feature do
         expect(page).to have_content(@comment1.author.name)
         expect(page).to have_content(@comment2.author.name)
     end
+  
+    it 'can see comments each commenter left' do
+        expect(page).to have_content 'This is my first comment'
+        expect(page).to have_content 'This is my second comment'
+    end
 end

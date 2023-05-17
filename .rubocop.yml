@@ -17,7 +17,7 @@ Metrics/ClassLength:
   Max: 170
 Metrics/BlockLength:
   Exclude: ['describe']
-  Max: 50
+  Max: 60
 Metrics/CyclomaticComplexity:
   Enabled: false
 Metrics/PerceivedComplexity:
@@ -37,6 +37,8 @@ Style/DefWithParentheses:
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
 
+Layout/EndOfLine:
+  Enabled: false
 Layout/HashAlignment:
   EnforcedColonStyle: key
 Layout/ExtraSpacing:

@@ -32,6 +32,12 @@ h1 {
   margin-top: 20px;
 }
 
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 ul {
   list-style: none;
 }
@@ -133,4 +139,24 @@ form label {
 form #post_title {
   width: 237px;
   height: 30px;
+}
+
+/* devise view */
+.label {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.input {
+  width: 300px;
+  height: 30px;
+}
+
+.sharedLinks {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.checkbox {
+  margin: 0;
 }

@@ -1,9 +1,8 @@
 class Api::V1::PostsController < ApplicationController
-    load_and_authorize_resource
+  load_and_authorize_resource
 
-    def index
-      @posts = Post.all.order('created_at')
-      render json: { success: true, data: { posts: @posts } }
-    end
+  def index
+    @posts = Post.all.order('created_at')
+    render json: { success: true, data: { posts: @posts } }
+  end
 end
-  

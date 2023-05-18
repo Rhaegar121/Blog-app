@@ -126,7 +126,19 @@ Visit http://localhost:3000/api-docs in your browser.
 
 - GitHub: [GitHub](https://github.com/Rhaegar121)
 - Twitter: [Twitter](https://twitter.com/20Rhaegar)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kaung-myat-kyaw-391720227)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kaungmyatkyaw/)
+
+👤 **Rachel Isaac**
+
+- GitHub: [@rachelwebdev](https://github.com/Rachelwebdev)
+- Twitter:[@rachelisaac13](https://twitter.com/Rachelisaac13)
+- LinkedIn: [Rachel Isaac](https://www.linkedin.com/in/rachelisaac13/)
+
+👤**Samuel Tobby**
+
+- GitHub: [@Tobby8629](https://github.com/Tobby8629)
+- Twitter: [@Tobby_samuels](https://twitter.com/Tobby_samuels)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/samuel-popoola-tobby/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

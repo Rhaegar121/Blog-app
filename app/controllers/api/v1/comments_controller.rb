@@ -1,16 +1,15 @@
 class Api::V1::CommentsController < ApplicationController
   load_and_authorize_resource
+  skip_before_action :verify_authenticity_token
 
   def index
-    @comments = Comment.where(post_id: params[:post_id]).order('created_at')
-    render json: { success: true, data: { comments: @comments } }
+    @post = Post.find(params[:post_id])
+    render json: { success: true, data: { comments: @post.comments } }
   end
 
   def create
     @post = Post.find(params[:post_id])
-    @comment = Comment.new(comment_params)
-    @comment.author_id = current_user.id
-    @comment.post_id = @post.id
+    @comment = @post.comments.new(text: comment_params[:text], author_id: @post.author_id)
 
     if @comment.save
       render json: { success: true, data: { comment: @comment } }, status: :created

@@ -19,7 +19,7 @@
 - [⭐️ Show your support](#support)
 - [📝 License](#license)
 
-# 📖 [MyBlogApp] <a name="about-project"></a>
+# 📖 [My Blog App] <a name="about-project"></a>
 
 > The Blog app is a classic example of a blog website. It's a functional website that shows the list of posts and empower readers to interact with them by adding comments and liking post.
 
